@@ -9,5 +9,5 @@ $(".dws-form").on("click", ".tab", function() {
     $(this).addClass('active');
 });
 $(".dws-form").find(".active").removeClass("active");
- $(this).addClass("active");
- $(".tab-form").eq($(this).index()).addClass("active");
+$(this).addClass("active");
+$(".tab-form").eq($(this).index()).addClass("active");
